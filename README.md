@@ -1,23 +1,21 @@
-Analyzing the Relationship Between Age of the Father and Fertility Outcomes
+Analyzing the Relationship Between Age of Male and IVF Cycle Outcomes
 
 
 Description
-This project focuses on analyzing the relationship between the age of fathers and fertility outcomes using data from the Human Fertilisation and Embryology Authority (HFEA) in the UK. The data spans over 40 years and provides a comprehensive view of reproductive health. This analysis is crucial due to the limited data on male fertility and its impact on child health. The project will involve data cleaning, constructing a panel dataset, and performing statistical analyses such as regression discontinuity. The results will be visualized using a Power BI dashboard.
+This project focuses on analyzing the relationship between the age of males (Sperm Donors for 1991-2016, Male Partners for 2017-2018) and IVF treatment outcomes using data from the publicly available Human Fertilisation and Embryology Authority (HFEA) in the UK. The data spans over 27 years and provides a comprehensive view of reproduction treatments in UK. The project will involve data cleaning, constructing two panel datasets, Power BI dashboard building and performing statistical analyses on the chosen independent variables (age and cycle-specific variables) and the dependent variables (Live birth and Early Outcome). The project serves as a first step in exploring the HFEA data which the data researchers employed at Originelle Fertility Center will use to publish an academic paper. This project assists them in understanding the nuance of the data and exploring possible research orientations.
 
 Tech Assets and URLs
 •	GitHub Repository: https://github.com/e4e5f4exf4/HFEA/
 
-•	Power BI Dashboard: 
+•	Power BI Dashboard: the pbix files named HFEA 2016.pbix for 1991-2016 and HFEA 2018.pbix for 2017-2018. Measures created using DAX are put in the separate table called myMeasures. 
 
-Installation
-Step-by-step instructions on how to install and set up the project.
-
-1.	Clone the repository:
+To Clone the repository:
 bash
 Copy code
 git clone https://github.com/e4e5f4exf4/HFEA/
 cd repo
-2.	Install the required libraries:
+
+Install the following required libraries:
 bash
 Copy code
 pip install -r requirements.txt
@@ -29,12 +27,19 @@ Prerequisites
 •	seaborn
 •	scikit-learn
 •	statsmodels
+•	stargazer
+•	catboost
+•	xgb
+•	lgbm
+•	patsy
 
-Features
-•	Data cleaning and preprocessing
-•	Panel dataset construction
-•	Statistical analysis (regression discontinuity)
-•	Power BI dashboard for data visualization
+
+Key Components of the Project includes
+•	Data Merging (Final Merge.ipynb)
+•	Data cleaning and preprocessing (1991-2016.ipynb, 2017-2018.ipynb)
+•	Statistical analysis (1991_2016 Model.ipynb, 2017-2018 Model.ipynb)
+•	Power BI dashboard for data visualization (HFEA 2016.pbix, HFEA 2018.pbix)
+
 Data Sources
 
 Details about the data sources used in the project.
