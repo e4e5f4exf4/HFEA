@@ -38,7 +38,7 @@ Key Components of the Project includes
 •	Data Merging (Final Merge.ipynb)
 •	Data cleaning and preprocessing (1991-2016.ipynb, 2017-2018.ipynb, cleaned data can be found in the data folder: 1991_2016 Donor Patient.csv, 2017_2018 cleaned data.7z)
 •	Statistical analysis (1991_2016 Model.ipynb, 2017-2018 Model.ipynb)
-•	Power BI dashboard for data visualization (HFEA 2016.pbix, HFEA 2018.pbix, in both files the dashboard whose name starts with "page" are the experimentation with certain graphs types. The official dashboards are given a proper name. I leave the experiments there to show the though process and hours of work)
+•	Power BI dashboard for data visualization (HFEA 2016.pbix, HFEA 2018.pbix, in both files the dashboard whose name starts with "page" are the experimentation with certain graphs types. The official dashboards are given a proper name. I leave the experiments there to show the though process and hours of work. Maybe client can find something interesting there too)
 
 Data Sources
 
